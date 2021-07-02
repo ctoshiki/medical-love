@@ -12,7 +12,7 @@
         </div>
         <img
           class="image"
-          src="/images/top_image.jpg"
+          src="/images/top_image.jp2"
           alt="医療DXといえば【MEDICAL♡DX】"
         />
       </div>

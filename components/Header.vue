@@ -3,11 +3,17 @@
     <header class="header">
       <h1 class="logo">
         <nuxt-link :to="`/`">
-          <img class="logoImg" src="/images/logo.svg" alt="医療DX" />
+          <img
+            class="logoImg"
+            src="/images/logo.svg"
+            alt="医療DX"
+            width="150"
+            height="28"
+          />
         </nuxt-link>
       </h1>
       <button class="menuBtn" @click="toggleOpen()">
-        <img src="/images/icon_menu.svg" alt="menu" />
+        <img src="/images/icon_menu.svg" alt="menu" width="24" height="24" />
       </button>
       <div v-if="open" class="mask" @click="setOpen(false)"></div>
 
