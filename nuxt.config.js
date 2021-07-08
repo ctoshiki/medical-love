@@ -98,7 +98,16 @@ export default {
    */
   plugins: [],
   components: true,
-  buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/pwa'],
+  buildModules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/pwa',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: GA_ID,
+      },
+    ],
+  ],
   /*
    ** Nuxt.js modules
    */
