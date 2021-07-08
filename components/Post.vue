@@ -32,7 +32,6 @@ export default {
       font-size: 30px;
       font-weight: bold;
       margin: 40px 0 16px;
-      border-bottom: 1px solid var(--color-bg-color);
     }
 
     & >>> h3 {
@@ -147,7 +146,6 @@ export default {
       font-size: 24px;
       font-weight: bold;
       margin: 36px 0 16px;
-      border-bottom: 1px solid var(--color-bg-color);
     }
 
     & >>> h3 {
