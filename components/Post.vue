@@ -83,7 +83,7 @@ export default {
       line-height: 2;
 
       &::before {
-        content: '-';
+        content: '・';
         margin-right: 10px;
       }
     }
@@ -197,7 +197,7 @@ export default {
       line-height: 2;
 
       &::before {
-        content: '-';
+        content: '・';
         margin-right: 10px;
       }
     }

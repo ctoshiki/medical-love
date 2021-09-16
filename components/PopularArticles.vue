@@ -52,4 +52,10 @@ export default {
   padding: 10px;
   color: var(--color-text-main);
 }
+
+@media (max-width: 767px) {
+  .list {
+    font-size: 14px;
+  }
+}
 </style>

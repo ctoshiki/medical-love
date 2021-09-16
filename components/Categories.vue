@@ -51,4 +51,10 @@ export default {
     border-bottom: none;
   }
 }
+
+@media (max-width: 767px) {
+  .list {
+    font-size: 14px;
+  }
+}
 </style>
