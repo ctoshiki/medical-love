@@ -54,7 +54,7 @@ export default {
 }
 
 @media (max-width: 767px) {
-  .list {
+  .link {
     font-size: 14px;
   }
 }
